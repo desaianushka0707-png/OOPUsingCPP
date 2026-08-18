@@ -2,11 +2,12 @@
 using namespace std;
 class student
 {
-	public:
+	private:
 		int rn;
 		string nm;
-		string mobNo;
-		
+		long long mobNo;
+
+	public:	
 		void accept()
 		{
 			cout<<"\n Enter student roll no:";
