@@ -1,4 +1,5 @@
-#include<iostream>
+
+ #include<iostream>
 using namespace std;
 class show
 {
@@ -26,7 +27,8 @@ class show
 };
 int main(){
   show s1(117,"anu",100);
-  show s2=s1;
+  show s2(s1);
+  show s3=s2;
+  return 0;
 }
-	
-                      
+	               
